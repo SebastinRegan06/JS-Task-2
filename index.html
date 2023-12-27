@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .card:hover {
+            background-color: rgb(5, 102, 97);
+            color: aliceblue;
+        }
+        body
+        {
+            background-color: rgb(180, 247, 224);
+        }
+    </style>
+</head>
+
+<body class="font-italic">
+    <header>
+        <div class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(115, 143, 14);font-size: 20px;">
+            <div class="container">
+                <a href="index.html" class="navbar-brand fw-bold ml-5">
+                    DATA<span class="text-danger mr-5">STORE</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse ml-5 font-weight-bold" id="menu">
+                    <ul class="navbar-nav ml-5">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link active ml-5">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./login.html" class="nav-link ml-5">
+                                Login
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./signin.html" class="nav-link ml-5">
+                                Signup
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="display-4 text-center m-3 font-weight-bold" style="color: rgb(136, 21, 21);">
+        Fetch Api
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Sebastin</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Regan</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Arputham</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Raj</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Prabu</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Kein</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Saran</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Praba</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Veera</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Mani</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Roshan</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Deepak</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Daniel</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Vijay</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Praveen</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Aswin</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Stalin</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Nelson</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Riyas</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Dharani</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Priya</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Arun</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Jegatheesh</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center" style="box-shadow: 5px 3px 10px 2px;">
+                    <div class="card-header">
+                        <h2>Monoj</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis sunt voluptas
+                            nesciunt nulla praesentium. Eveniet autem, a quasi magni molestiae maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
